@@ -23,11 +23,13 @@ footer{
     height: 30px;
     cursor: pointer;
     padding: 0;
+    background-color: transparent;
+    border: 0px solid black
 
 }
 
 .btnLike img{
-    size: 1fr;
+    height: 30px;
 
 }
 

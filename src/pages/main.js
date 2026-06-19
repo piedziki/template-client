@@ -34,7 +34,7 @@ function HomePage() {
     <PopUp showPopUp={showPopUp} closePopUp={()=>setShowPopUp(false)}>
             
             </PopUp>
- 
+            <Link to='/doces'>Doces </Link>
       {TextBox()}
       {PostBox("JUJUBA", user)}
       {PostBox("Frutas", "prefiro chocolate")}
