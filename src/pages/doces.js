@@ -4,7 +4,7 @@ function Doces (){
     return(
     <div className="grid-container"> 
     <header className="header"></header>
-    <aside className="sidebar">Meu lateral</aside> 
+    <aside className="sidebar"></aside> 
     <main className="content">
     <img src={bolo}/>
 </main>    

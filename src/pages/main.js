@@ -26,20 +26,19 @@ function HomePage() {
           logout={() => setFakeToken(false)}
           login={manipularLoginButton}></MyHeader>
 
-    {/* <Link to='/registrar'>Cadastrar</Link>
-    <button className="logButton" onClick={() => {setShowPopUp(true)} } >{loginLabel}</button> */}
+    {}
       </header>
-    <aside className="sidebar">Menu Lateral</aside>
+    <aside className="sidebar">l</aside>
     <main className="content">
     <PopUp showPopUp={showPopUp} closePopUp={()=>setShowPopUp(false)}>
             
             </PopUp>
             <Link to='/doces'>Doces </Link>
       {TextBox()}
-      {PostBox("JUJUBA", user)}
+      {PostBox("JUJUBA", user)}   
       {PostBox("Frutas", "prefiro chocolate")}
-      <div className="post">Post 3</div>
-      <div className="post">Post 4</div>
+      <div className="post"></div>
+      <div className="post"></div>
     </main>
   </div>
   );
