@@ -29,7 +29,7 @@ function Registrar() {
 
         try {
             const response = await axios.post(
-                'http://localhost:5000/registrar',
+                'https://template-server-5gb9.onrender.com/registrar',
                 {
                     nome: nome,
                     idade: idade,
