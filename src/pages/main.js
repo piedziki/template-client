@@ -5,7 +5,8 @@ import { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom';
 import PopUp from '../components/popUp.js';
 import { jwtDecode } from "jwt-decode";
-import MyHeader from "../components/header.js"
+import MyHeader from "../components/header.js";
+
 
 function HomePage() {
   const [loginLabel, setLoginLabel] = useState("Login");
@@ -34,6 +35,7 @@ function HomePage() {
             
             </PopUp>
             <Link to='/doces'>Doces </Link>
+            <Link to='/calculadora'>Calculadora</Link>
       {TextBox()}
       {PostBox("JUJUBA", user)}   
       {PostBox("Frutas", "prefiro chocolate")}
